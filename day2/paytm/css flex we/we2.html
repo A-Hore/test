@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar>div:first-child{
+    width: 10%;
+    height: 100%;
+}
+#navbar>div:last-child{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#navbar>div:last-child>div{
+    display: flex;
+    background-color:rgb(154, 154, 223);
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+#navbar>div:last-child>div>img{
+width: 20px;
+height: 20px;
+}
+select{
+    padding: 5px 10px 5px 10px ;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    color: aliceblue;
+    background-color: red;
+}
+#navbar>div:last-child>p:hover{
+    color: red;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="masai logo">
+        </div>
+        <div>
+         <select>
+             <option value="Courses"> COURSES</option>
+         </select>
+         <p>fees & isa</p>
+         <p>about us</p>
+         <p>Hire from us</p>
+         <p>faq</p>
+         <p>events</p>
+         <div>
+             <p>refer & earn</p>
+             <img src="https://www.masaischool.com/img/referral/hand.png" alt="earn">
+         </div>
+         <button>LOGIN</button>
+        </div>
+    </div>
+</body>
+</html>

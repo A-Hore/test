@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.heading{
+    color: teal;
+    text-align: center;
+}
+#calculator{
+    height: 500px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+#display{
+    height: 60px;
+    width: 92%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    border-radius: 20px;
+   
+}
+#keyboard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,80px);
+    gap: 20px;
+    margin-top: 20px;
+    /* padding: 20px; both can use */
+}
+#keyboard>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+#keyboard> div:hover{
+    background-color: aqua;
+    color: pink;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="heading">Masai calculator</h1>
+
+    <div id="calculator">
+        <div id="display"></div>
+        <div id="keyboard">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div class="black">+</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div class="black">-</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="black">X</div>
+            <div class="red">C</div>
+            <div>0</div>
+            <div class="black">=</div>
+            <div class="black">/</div>
+           
+        </div>
+    </div>
+</body>
+</html>

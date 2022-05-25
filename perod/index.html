@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEREODIC TABLE</title>
+ <style>
+#blu{
+    width: 34%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9,45px);
+    grid-template-rows: repeat(4,45px);
+    gap: 8px;
+    /* border: 1px solid green; */
+    /* background-color: aqua; */
+    margin-top: 470px;
+}
+ #blu>div{
+     border: 1px solid rgb(1, 8, 1);
+     background-color: rgb(10, 30, 214);
+ }
+ #cream{
+    /* margin: auto; */
+    width: 6.6%;
+    display: grid;
+    grid-template-columns: repeat(2,45px);
+    grid-template-rows: repeat(6,45px);
+    gap: 8px;
+    /* border: 1px solid red; */
+    margin-top: -315px;
+    margin-left: 330px;
+    
+ }
+ #cream>div{
+     border: 1px solid green;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    /* margin-bottom: 300px; */
+   
+    
+ }
+ #cream>div:nth-child(2){
+    background-color: rgb(198, 92, 92);
+ }
+ #cream>div:nth-child(4){
+     background-color: rgb(198, 92, 92);
+ }
+ #cream>div:nth-child(6){
+    background-color: rgb(198, 92, 92);
+ }
+ #cream>div:nth-child(8){
+    background-color: rgb(198, 92, 92);
+ }
+ #cream>div:nth-child(10){
+    background-color: rgb(198, 92, 92);
+ }
+ #cream>div:nth-child(12){
+    background-color: rgb(240, 110, 110);
+ }
+ #cream2{
+    /* margin: auto; */
+    width: 3%;
+    display: grid;
+    grid-template-columns: repeat(1,45px);
+    grid-template-rows: repeat(2,45px);
+    gap: 8px;
+    /* border: 1px solid red; */
+    margin-top: -100px;
+    margin-left: 440px;
+ }
+ #cream2>div{
+     border: 6px solid black;
+     background-color: rgb(244, 206, 206);
+ }
+ #hj{
+     width: 3%;
+     display: grid;
+     grid-template-columns: repeat(1,45px);
+     grid-template-rows: repeat(1,45px);
+    gap: 8px;
+    background-color: rgb(81, 48, 7);
+    margin-top: -370px;
+    margin-left: 330px;
+    
+
+ }
+ #hj h3{
+    font-weight: 500;
+    color: rgb(243, 245, 247);
+    text-align: center;
+    line-height: 40px;
+    margin-top: -1px;
+    font-size: 25px;
+   
+ }
+ #sj{
+    
+     width: 10%;
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-template-rows: repeat(1,110px);
+    gap: 8px;
+    /* border: 1px solid red; */
+   
+ }
+
+#sj>div{
+    background-color:lightgreen;
+    width: 130px;
+    color: rgb(1, 10, 18);
+    margin-top: -25px;
+    margin-left: 501px;
+}
+  #sj h2{
+      font-size: 50px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 10px;
+  }  
+  #sj h4{
+        font-weight: 600;
+        margin-top: -40px;
+        margin-left: 10px;
+  }
+  #sj h5{
+         margin-top: -130px;
+         font-size: 20px;
+         font-weight: 500;
+         margin-left: 100px;
+  }
+ 
+ h1{
+     width: 40%;
+     background-color: darkorange;
+     text-align: center;
+     font-weight: 500;
+    
+     margin-bottom: -280px;
+     margin-left: 600px;
+    
+ }
+ #last{
+     width: 21%;
+    display: grid;
+     grid-template-columns: repeat(6,45px);
+     grid-template-rows: repeat(6,45px);
+    gap: 8px;
+    /* border: 1px solid red; */
+    margin-left: 985px;
+    margin-top: -85px;
+
+ }
+ #last>div{
+     border: 1px solid green;
+ }
+ #last>div:nth-child(6){
+     background-color: rgb(227, 227, 24);
+ }
+ #last>div:nth-child(12){
+     background-color: rgb(227, 227, 24);
+ }
+ #last>div:nth-child(18){
+     background-color: rgb(227, 227, 24);
+ }
+ #last>div:nth-child(24){
+     background-color: rgb(227, 227, 24);
+ }
+ #last>div:nth-child(30){
+     background-color: rgb(227, 227, 24);
+ }
+ #last>div:nth-child(31){
+     background-color: rgb(184, 28, 205);
+ }
+ #last>div:nth-child(32){
+     background-color:rgb(184, 28, 205);
+ }
+ #last>div:nth-child(33){
+     background-color: rgb(184, 28, 205);
+ }
+ #last>div:nth-child(34){
+     background-color: rgb(184, 28, 205);
+ }
+ #last>div:nth-child(35){
+     background-color:rgb(184, 28, 205);
+ }
+ #last>div:nth-child(36){
+     background-color: rgb(184, 28, 205);
+ }
+ #last>div:nth-child(2){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(3){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(4){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(5){
+     background-color: rgb(209, 17, 68);
+ }
+ #last>div:nth-child(1){
+     background-color: purple;
+ }
+ #last>div:nth-child(8){
+     background-color: purple;
+ }
+ #last>div:nth-child(14){
+     background-color: purple;
+ }
+ #last>div:nth-child(15){
+     background-color: purple;
+ }
+ #last>div:nth-child(22){
+     background-color: purple;
+ }
+ #last>div:nth-child(21){
+     background-color: purple;
+ }
+ #last>div:nth-child(28){
+     background-color: purple;
+ }
+ #last>div:nth-child(7){
+     background-color: orange;
+ }
+ #last>div:nth-child(13){
+     background-color: orange;
+ }
+ #last>div:nth-child(19){
+     background-color: orange;
+ }
+ #last>div:nth-child(20){
+     background-color: orange;
+ }
+ #last>div:nth-child(25){
+     background-color: orange;
+ }
+ #last>div:nth-child(26){
+     background-color: orange;
+ }
+ #last>div:nth-child(27){
+     background-color: orange;
+ }
+ #last>div:nth-child(9){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(10){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(11){
+     background-color: rgb(209, 17, 68);
+ }
+ #last>div:nth-child(16){
+     background-color: rgb(20, 214, 37);
+ }
+ #last>div:nth-child(17){
+     background-color: rgb(209, 17, 68);
+ }
+ #last>div:nth-child(29){
+     background-color: rgb(209, 17, 68);
+ }
+ #last>div:nth-child(35){
+     background-color: rgb(209, 17, 68);
+ }
+ #last>div:nth-child(23){
+     background-color: rgb(209, 17, 68);
+ }
+ #ls{
+     width: 2.83%;
+    display: grid;
+     grid-template-columns: repeat(1,45px);
+     grid-template-rows: repeat(1,45px);
+    gap: 8px;
+    border: 1px solid green;
+    background-color: rgb(227, 227, 24);
+    margin-left: 1250px;
+    margin-top: -365px;
+
+ }
+ #bar{
+    margin: auto;
+     width:34%;
+     display: grid;
+     gap:  1px ;
+     grid-template-columns: repeat(14,36px);
+     grid-template-rows: repeat(2,30px);
+     border: 1 px solid red;
+     background-color: black;
+    margin-top: 350px;
+    margin-left: 540px;
+ }
+ #bar>div{
+     /* background-color: aqua; */
+     border: 2 px solid rgb(1, 5, 1);
+     background-color: darkgreen;
+ }
+ #bar>div:nth-child(1){
+     color: aliceblue;
+     text-align: center;
+     line-height: 30px;
+     font-weight: 1;
+ }
+ #bar>div:nth-child(15){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(16){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(17){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(18){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(19){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(20){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(21){
+    background-color: lightgreen;
+    text-align: center;
+    line-height:25px ;
+ }
+ #bar>div:nth-child(22){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(23){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(24){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(25){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(26){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(27){
+    background-color: lightgreen;
+ }
+ #bar>div:nth-child(28){
+    background-color: lightgreen;
+    
+ }
+ #bar h6{
+     color: hsl(180, 78%, 2%);
+     font-size: 15px;
+     margin-top: 12px;
+     font-weight: 300;
+     margin-left: 14px;
+ }
+ #main>div>h1:hover{
+     background-color: crimson;
+     color: aliceblue;
+ }
+ 
+ </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <h1> THE PEREODIC TABLE OF ELEMENTS.</h1>
+    <div id="blu">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="cream">
+        <div></div>
+        <div>4</div>
+        <div></div>
+        <div>12</div>
+        <div></div>
+        <div>20</div>
+        <div></div>
+        <div>38</div>
+        <div></div>
+        <div>56</div>
+        <div></div>
+        <div>88</div>
+    </div>
+    <div id="cream2">
+        <div></div>
+        <div></div>
+    </div>
+    <div id="hj">
+        <h3>H</h3>
+    </div>
+    <div id="sj">
+       <div>
+           <h2>Si</h2>
+           <h4>Silicon</h4>
+           <h5>14</h5>
+    </div>
+    </div>
+    <div id="last">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="ls">
+        <div></div>
+    </div>
+    <div id="bar">
+        <div>La</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>Am</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>
+            <h6>No</h6>
+        </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
